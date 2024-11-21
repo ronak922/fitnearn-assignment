@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    
+}
+
+.iphone1, .iphone2 {
+   
+    
+    height: 600px;
+}
+
+.iphone1 {
+    /* position: absolute;
+    transform: rotate(5deg);
+    z-index: 999; */
+    position: absolute;
+    transform: rotate(-3deg) translate(130px, 15px);
+    z-index: 999;
+
+}
+.iphone2{
+    /* position: inherit;
+    transform: rotate(-10deg); */
+
+    position: inherit;
+    transform: rotate(-5deg);
+    /* transform: translateX(-118px);*/
+    
+}
+.store-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .store-button {
+    background-color: #e84393;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  

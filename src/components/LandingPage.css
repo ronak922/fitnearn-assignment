@@ -1,0 +1,229 @@
+.fitnearnpal-container {
+  font-family: 'lato', sans-serif;
+  background-color: #171717;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.fitnearnpal-container .navbar {
+  margin-bottom: 62px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+
+}
+
+.fitnearnpal-container .navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f53d3d;
+  transition: color 0.3s ease;
+}
+
+.fitnearnpal-container .navbar .menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.fitnearnpal-container .navbar .menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.fitnearnpal-container .navbar .menu a:hover {
+  color: #f53d3d;
+}
+
+.signup-btn {
+  width: 192px;
+  font-family: lato;
+font-size:18px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  border: 2px solid red;
+  opacity: 1;
+  background-color: #171717;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fitnearnpal-container .navbar .signup-btn:hover {
+  background-color: #cc3232;
+}
+
+.fitnearnpal-container .hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+}
+
+.fitnearnpal-container .hero .text-section {
+  max-width: 50%;
+}
+
+.fitnearnpal-container .hero .text-section h1 {
+  font-size: 56px;
+  font-style: italic;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  background: linear-gradient(121.18deg, #DB2777 10.59%, #DA5F09 81.29%);
+  background-clip: text; /* Standard property */
+  -webkit-background-clip: text; /* Vendor prefix for Safari and older browsers */
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.fitnearnpal-container .hero .text-section p {
+  margin: 2rem 0;
+  color: #cccccc;
+  font-size: 25px;
+}
+
+.fitnearnpal-container .hero .text-section .cta-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.fitnearnpal-container .hero .text-section .cta-buttons .app-btn {
+  width: 192px;
+  height: 67px;
+  background-color: #f53d3d;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 13px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.fitnearnpal-container .hero .text-section .cta-buttons .app-btn span {
+  font-weight: normal;
+}
+
+.fitnearnpal-container .hero .text-section .cta-buttons .app-btn:hover {
+  background-color: #cc3232;
+}
+
+.fitnearnpal-container .community-section {
+  text-align: center;
+  padding: 2rem 3rem;
+  color: #ffffff;
+}
+
+.fitnearnpal-container .community-section h2 {
+  font-size: 52px;
+  margin-bottom: 1rem;
+}
+
+.fitnearnpal-container .community-section p {
+  font-size: 27px;
+  margin-bottom: 2rem;
+  color: #cccccc;
+}
+
+.fitnearnpal-container .community-section .join-now-btn {
+  margin-bottom: 57px;
+  background-color: #f53d3d;
+  color: #ffffff;
+  border: none;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fitnearnpal-container .community-section .join-now-btn:hover {
+  background-color: #cc3232;
+}
+
+.circle-container {
+  position: relative;
+  width: 485px;
+  height: 485px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eclipse {
+  width: 28rem;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  height: auto;
+  position: relative;
+}
+
+.eclipse2 {
+  width: 22rem;
+  border-radius: 50%;
+  background-color: #f53d3d;
+  z-index: 2;
+  position: absolute;
+}
+
+.phone-image {
+  border-radius: 42px;
+  width: 293.78px;
+  height: auto;
+  position: absolute;
+  z-index: 2;
+}
+
+.hero {
+  .smile {
+    width: 40px;
+    aspect-ratio: 1;
+    margin-right: 12px;
+  }
+}
+.circle1{
+  width: 80px;
+  z-index: 999;
+  transform: translateX(407px) translateY(-210px);
+}
+.circle2{
+  width: 80px;
+  z-index: 999;
+  transform: translateX(323px) translateY(81px);
+}
+.circle3{
+  width: 80px;
+  z-index: 999;
+  transform: translateX(533px) translateY(-136px);
+}
+.circle4{    width: 80px;
+  z-index: 999;
+  transform: translateX(450px) translateY(170px);
+}
+
+  .applogo {
+    transform: translateX(-68px) translateY(8px); /* Moves the image */
+    transition: transform 0.3s ease; /* Optional: adds smooth transition */
+    
+
+}
+.androidlogo {
+  transform: translateX(-23px) translateY(8px); /* Moves the image */
+  transition: transform 0.3s ease; /* Optional: adds smooth transition */
+
+
+}.small-text{
+  font-size: 12px;
+}
+.download-appstore{
+  width:186px;
+  cursor: pointer ;
+}

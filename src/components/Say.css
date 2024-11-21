@@ -1,0 +1,205 @@
+.coach-container {
+    font-family: lato;
+    font-size: 20px;
+    text-align: center;
+    background-color:#171717;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .highlight {
+    color: #ff4b4b; /* Add a gradient effect if needed */
+  }
+  
+  .coach-feedback {
+    margin-top: 20px;
+  }
+  
+  .feedback-card {
+
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    max-width: 400px;
+    color: #fff;
+  }
+  
+  .profile-picture img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-text {
+    font-size: 14px;
+    margin-bottom: 35px;
+  }
+  
+  .coach-circles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 40px;
+  }
+  
+  .circle0 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .circle0 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .paragraph{
+    text-align: center;
+    text-decoration: blanchedalmond;
+  }
+  .stars{
+    margin-bottom: 2.5rex;
+  }
+  .coach{
+    margin-top: -3.5rex;
+    margin-bottom: 2rex;
+    font-size: 24px;
+  }
+  .yoga{
+    margin-top: 3rex;
+    font-size: 16px;
+  }
+  .side{
+    border-radius: 50%;
+    width: 60px;
+    position: absolute;
+    max-width: 300px;
+    height: auto;
+    padding-right: 20px;
+    grid-template-columns: 1fr auto;    
+    display: grid;
+  }
+  .circle-container-review {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .circle-container-review img {
+    transform: translateX(29px) translateY(-16px);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  .side,
+.side2,
+.side3,
+.side4,
+.side5,
+.side6 {
+  border-radius: 50%;
+  position: absolute;
+  max-width: 300px;
+}
+
+.side {
+  transform: translate(-414px) translateY(-172px);
+  width: 60px;
+}
+
+.side2 {
+  transform: translate(533px);
+  width: 75px;
+}
+
+.side3 {
+  transform: translate(371px) translateY(-175px);
+  width: 60px;
+}
+
+.side4 {
+  transform: translate(371px) translateY(174px);
+  width: 60px;
+}
+
+.side5 {
+  transform: translate(-413px) translateY(173px);
+  width: 60px;
+}
+
+.side6 {
+  transform: translate(-620px);
+  width: 75px;
+}
+
+.loading {
+  transform: translateY(40px);
+}
+.profile-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0; /* Initially hide images */
+  transition: opacity 0.5s ease;
+}
+
+.profile-image.active {
+  opacity: 1; /* Show active profile */
+}
+.circle0.active {
+  transform: scale(1.1); /* Slightly enlarge the active circle */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Add a glowing effect */
+}
+
+/* Loading spin animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  width: 30px;
+  animation: spin 1s linear infinite;
+}
+
+/* Circle Indicators Below the Trainer Name */
+.indicator-circles {
+  display: flex;
+  justify-content: center;
+  margin-top: 33px;
+}
+
+.circle0 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #262626; /* Inactive circle color */
+  margin: 0 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.circle0.active {
+  background-color: #e94a48; /* Active circle color */
+  transform: scale(1.3); /* Increase size when active */
+}
+
+.circle0:hover {
+  transform: scale(1.2); /* Hover effect to slightly enlarge */
+}

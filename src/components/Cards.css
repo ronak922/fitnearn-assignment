@@ -1,0 +1,59 @@
+.cards-container {
+  margin-bottom: 115px;
+  display: grid
+;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 41px;
+  padding: 20px;
+  background-color: #171717;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  /* width: 86%;
+  height: 216vh; */
+}
+/* Optional: Make the grid responsive */
+@media (max-width: 768px) {
+  .cards-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .cards-container {
+      grid-template-columns: 1fr; /* 1 column on very small screens */
+  }
+}
+
+/* Rest of the styles */
+.card {
+  background-color: #171717;
+  border-radius: 10px;
+  text-align: center;
+  height: 256px;
+  width: 248px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  border-radius: 4%;
+  mix-blend-mode: luminosity; 
+  width: 406px;
+  background-color: #262626;
+
+}
+
+.card-image:hover {
+  mix-blend-mode: lighten;
+}
+
+.fitness-card {
+  background-color: var(--Neutral-800, #262626);
+  /* Add any additional styles you need */
+}

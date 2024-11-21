@@ -1,0 +1,131 @@
+.footer {
+    background-color: #3b1e1e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 40px 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-left {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-left .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .highlight {
+    color: #ff4b4b;
+  }
+  
+  .footer-left p {
+    margin-top: 28px;
+    font-family: lato;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .love{
+    font-family: lato;
+  }
+
+
+  
+  .social-icons i:hover {
+    color: #ff4b4b;
+  }
+  
+  .footer-middle {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .links, .policies {
+    text-align: left;
+  }
+  
+  .links h3, .policies h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .links ul, .policies ul {
+    font-family: lato;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links li, .policies li {
+    color: #b0b0b0;
+    margin-bottom: 8px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .links li:hover, .policies li:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-right {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .footer-right h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .download-buttons img {
+    transform: translateX(43rex) translateY(10px);
+    display: block;
+    width: 150px;
+    margin-bottom: 21px;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .footer-bottom hr {
+    border: 0.5px solid #555;
+    margin: 20px 0;
+  }
+  
+  .footer-bottom span {
+   font-family: lato;
+  }
+  .email{
+    margin-right: 1.5rex;
+  }
+  .useful-links{   
+    color: #b0b0b0;
+    margin-right: 0.5rex;
+    transform: translateX(0px) translateY(-21px);
+    font-family: 'Lato';
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .policies-links{transform: translateX(0px) translateY(-21px);
+    color: #b0b0b0;
+    margin-bottom: 10px;
+  }
+  .download-now{
+    color: #b0b0b0;
+    transform: translateX(-50px) translateY(-21px);
+    margin-bottom: 10px;
+  }
+  .copyright{
+    width: 30px;
+  }

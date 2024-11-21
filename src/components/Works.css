@@ -1,0 +1,100 @@
+.how-it-works {
+    text-align: center;
+    color: white;
+    background: linear-gradient(
+      126.89deg,
+      rgba(219, 39, 119, 0.12) -67.19%,
+      rgba(249, 115, 22, 0.12) 203.32%
+    );
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners for better UI */
+  }
+  
+  .h1 {
+       
+    /* transform: translateX(14px) translateY(-59px); */
+    font-weight: 800;
+    font-family: 'Lato';
+    font-size: 52px;
+    text-align: center;
+
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 20px; /* Adds spacing between steps */
+  }
+  
+  .step {
+    width: 20%;
+    text-align: center;
+    min-width: 150px; /* Ensures step boxes shrink nicely on smaller devices */
+  }
+  
+  .icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 15px; /* Centers the icon */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .step h2 {
+    font-family: 'Lato';
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .step p {
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #cccccc; /* Light gray for better readability */
+    
+  }
+  
+  @media (max-width: 768px) {
+    .steps {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .step {
+      width: 100%; /* Full width for smaller screens */
+      max-width: 300px; /* Keeps boxes compact */
+      margin-bottom: 20px;
+    }
+  }
+  .hr{
+    left:242px;
+    background: linear-gradient(126.89deg, #DB2777 -67.19%, #F97316 203.32%);
+    border: 2px solid #FF5733;
+    position: absolute;
+    width: 303px; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 27px 0 20px; 
+  }
+  .hr1{
+    left:607px;
+    border: 2px solid #FF5733;
+    position: absolute;
+    width: 304px; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 27px 0 20px; 
+  }
+  .hr2{
+    left:973px;
+    position: absolute;
+    border: 2px solid #FF5733;
+    width: 302px; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 27px 0 20px; 
+  }
